@@ -1,0 +1,239 @@
+{
+  "@@locale": "tr",
+  "appTitle": "DOMINOiT",
+  "@appTitle": {
+    "description": "The title of the application"
+  },
+  "smartPlantMonitoring": "Akıllı Bitki İzleme",
+  "@smartPlantMonitoring": {
+    "description": "Subtitle of the app"
+  },
+  "splashDevelopedBy": "Geliştiren",
+  "@splashDevelopedBy": {
+    "description": "Developed by text on splash"
+  },
+  "splashTeam": "Ekal Tech Team",
+  "@splashTeam": {
+    "description": "Team name on splash"
+  },
+  "homeTitle": "Ana Sayfa",
+  "@homeTitle": {
+    "description": "Home screen title"
+  },
+  "temperature": "Sıcaklık",
+  "@temperature": {
+    "description": "Temperature label"
+  },
+  "humidity": "Nem",
+  "@humidity": {
+    "description": "Humidity label"
+  },
+  "soilMoisture": "Toprak Nemı",
+  "@soilMoisture": {
+    "description": "Soil moisture label"
+  },
+  "plantStress": "Bitki Stresi",
+  "@plantStress": {
+    "description": "Plant stress label"
+  },
+  "stressLevel": "Stres Seviyesi",
+  "@stressLevel": {
+    "description": "Stress level label"
+  },
+  "capturePhoto": "Bitki Fotoğrafı Çek",
+  "@capturePhoto": {
+    "description": "Capture photo button"
+  },
+  "refreshData": "Verileri Yenile",
+  "@refreshData": {
+    "description": "Refresh data button"
+  },
+  "settings": "Ayarlar",
+  "@settings": {
+    "description": "Settings title"
+  },
+  "esp32Url": "ESP32 URL",
+  "@esp32Url": {
+    "description": "ESP32 URL label"
+  },
+  "targetRgb": "Hedef RGB Değerleri",
+  "@targetRgb": {
+    "description": "Target RGB values label"
+  },
+  "red": "Kırmızı",
+  "@red": {
+    "description": "Red color label"
+  },
+  "green": "Yeşil",
+  "@green": {
+    "description": "Green color label"
+  },
+  "blue": "Mavi",
+  "@blue": {
+    "description": "Blue color label"
+  },
+  "darkMode": "Karanlık Mod",
+  "@darkMode": {
+    "description": "Dark mode label"
+  },
+  "language": "Dil",
+  "@language": {
+    "description": "Language label"
+  },
+  "save": "Kaydet",
+  "@save": {
+    "description": "Save button"
+  },
+  "cancel": "İptal",
+  "@cancel": {
+    "description": "Cancel button"
+  },
+  "savedSuccessfully": "Başarıyla kaydedildi",
+  "@savedSuccessfully": {
+    "description": "Save success message"
+  },
+  "error": "Hata",
+  "@error": {
+    "description": "Error label"
+  },
+  "connectionError": "Bağlantı hatası",
+  "@connectionError": {
+    "description": "Connection error message"
+  },
+  "noData": "Veri yok",
+  "@noData": {
+    "description": "No data message"
+  },
+  "loading": "Yükleniyor...",
+  "@loading": {
+    "description": "Loading message"
+  },
+  "analyzing": "Analiz ediliyor...",
+  "@analyzing": {
+    "description": "Analyzing message"
+  },
+  "analysisComplete": "Analiz tamamlandı",
+  "@analysisComplete": {
+    "description": "Analysis complete message"
+  },
+  "rgbValues": "RGB Değerleri",
+  "@rgbValues": {
+    "description": "RGB values label"
+  },
+  "stressScore": "Stres Skoru",
+  "@stressScore": {
+    "description": "Stress score label"
+  },
+  "healthy": "Sağlıklı",
+  "@healthy": {
+    "description": "Healthy status"
+  },
+  "stressed": "Stresli",
+  "@stressed": {
+    "description": "Stressed status"
+  },
+  "critical": "Kritik",
+  "@critical": {
+    "description": "Critical status"
+  },
+  "plantStressDetected": "Bitki stresi tespit edildi! Hemen kontrol edin.",
+  "@plantStressDetected": {
+    "description": "Notification message for plant stress"
+  },
+  "simulationMode": "Simülasyon Modu",
+  "@simulationMode": {
+    "description": "Simulation mode label"
+  },
+  "useSimulation": "ESP32 simülasyonu kullan",
+  "@useSimulation": {
+    "description": "Use simulation toggle"
+  },
+  "appInfo": "Uygulama Bilgileri",
+  "@appInfo": {
+    "description": "App info section title"
+  },
+  "version": "Sürüm",
+  "@version": {
+    "description": "Version label"
+  },
+  "developer": "Geliştirici",
+  "@developer": {
+    "description": "Developer label"
+  },
+  "team": "Ekip",
+  "@team": {
+    "description": "Team label"
+  },
+  "resetDefaults": "Varsayılanlara Sıfırla",
+  "@resetDefaults": {
+    "description": "Reset to defaults button"
+  },
+  "confirmReset": "Tüm ayarları varsayılanlara sıfırlamak istediğinizden emin misiniz?",
+  "@confirmReset": {
+    "description": "Confirm reset message"
+  },
+  "yes": "Evet",
+  "@yes": {
+    "description": "Yes button"
+  },
+  "no": "Hayır",
+  "@no": {
+    "description": "No button"
+  },
+  "takePhoto": "Fotoğraf Çek",
+  "@takePhoto": {
+    "description": "Take photo button"
+  },
+  "chooseFromGallery": "Galeriden Seç",
+  "@chooseFromGallery": {
+    "description": "Choose from gallery button"
+  },
+  "analyze": "Analiz Et",
+  "@analyze": {
+    "description": "Analyze button"
+  },
+  "result": "Sonuç",
+  "@result": {
+    "description": "Result label"
+  },
+  "targetColor": "Hedef Renk",
+  "@targetColor": {
+    "description": "Target color label"
+  },
+  "detectedColor": "Tespit Edilen Renk",
+  "@detectedColor": {
+    "description": "Detected color label"
+  },
+  "difference": "Fark",
+  "@difference": {
+    "description": "Difference label"
+  },
+  "retry": "Tekrar Dene",
+  "@retry": {
+    "description": "Retry button"
+  },
+  "back": "Geri",
+  "@back": {
+    "description": "Back button"
+  },
+  "celsius": "°C",
+  "@celsius": {
+    "description": "Celsius unit"
+  },
+  "percent": "%",
+  "@percent": {
+    "description": "Percent unit"
+  },
+  "low": "Düşük",
+  "@low": {
+    "description": "Low status"
+  },
+  "normal": "Normal",
+  "@normal": {
+    "description": "Normal status"
+  },
+  "high": "Yüksek",
+  "@high": {
+    "description": "High status"
+  }
+}
