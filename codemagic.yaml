@@ -1,0 +1,20 @@
+workflows:
+  android-workflow:
+    name: DOMINOiT Android Build
+    max_build_duration: 60
+    environment:
+      flutter: 3.19.6
+      java: 17
+    scripts:
+      - name: Set local.properties
+        script: |
+          echo "sdk.dir=$ANDROID_SDK_ROOT" > "$CM_BUILD_DIR/android/local.properties"
+          echo "flutter.sdk=$FLUTTER_ROOT" >> "$CM_BUILD_DIR/android/local.properties"
+      - name: Flutter pub get
+        script: flutter pub get
+      - name: Generate l10n
+        script: flutter gen-l10n
+      - name: Build APK
+        script: flutter build apk --release --no-tree-shake-icons
+    artifacts:
+      - build/app/outputs/flutter-apk/app-release.apk
